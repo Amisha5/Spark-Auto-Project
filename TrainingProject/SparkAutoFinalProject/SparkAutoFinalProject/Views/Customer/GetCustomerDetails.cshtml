@@ -1,0 +1,84 @@
+﻿@model IEnumerable<SparkAutoFinalProject.Models.ApplicationUser>
+@{
+    ViewData["Title"] = "GetCustomerDetails";
+}
+
+<style>
+    body {
+        background-color: black;
+        background-image: url("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxASDw8QEA8QDw8PDw8PDw8PDw8PDw8PFREWFhUVFRUYHSggGBolGxUVITEhJSkrLi4uFx8zODMtNygtLisBCgoKDg0OFQ8QFS0ZFRkrLSsrLS0rKy0tKystKystKystLS0tLSstKysrKy0rLTc3LS0tNystNy0tLTcrNzctK//AABEIAMIBAwMBIgACEQEDEQH/xAAaAAADAQEBAQAAAAAAAAAAAAAAAQIDBAUH/8QAKxABAQACAQIFAgYDAQAAAAAAAAECERIDYRMhMVGBQaFScZGxwfAEItEU/8QAGAEBAQEBAQAAAAAAAAAAAAAAAAECAwT/xAAaEQEBAQEBAQEAAAAAAAAAAAAAARECEiED/9oADAMBAAIRAxEAPwD7HsbLYdXkFGy2JRNO1nlTqVjNoVimQWiHclREi9ixfI8EbOZI3K1tZ7OX1rK5Eh10M8kypp41pz1WWSdlaQi8fVWVRKBdM8Ym1UBNvmBsCDFcqFY1FhgbKinT2kQNWNkVRT2E7C4mrBBFOJVklShKqijNPl5FshFRcppOI0YIZArfkztPKpolpWiELVQWnCipAAlAAHaVKgNqZrxAtqSYKlVpHT9Vo1CyE9BfUUChiQ6CSVAJigCFO0gehSyQrJCs0HCMQwRiniVo2AKkrRaEQFFMQEVowKnRmKIkqq4psQKKgmKrFE6Krp44RFwYxa7053K4JrfmxlPUVUxVxq6mIhNLKjLELDAADR3E8YOKLibBVcU5AjJCsi0rFEMBUAMSAANHBRotHaSCV4oWpDBBFOKkQx8PL8X3oOi0tMdX8X8r2GnaLUhWVReLLbWJWo0xyGVZcuxeImNemsFqMsxyMPS02jLNMygWqkMcgL8UCCKLWel1Kxms7DirBIrGJ0F6LiGJkVfQwLidHoxQToaOQWAmYnCpKiqm0UAezv8AYnFcQgxxvaIy/Npth1MvMW4ezZ7P5VlW6rlU/JSd0GnMSp0XIXVCouRXIRofJjlknkK65Q4ud9wLtd4II3pkAJoAAmAAKEDAhAADLI5DsRWWRaXxGlTEWhfErFTBosKqFliinkzyhXLXknLqCDQ1Pdnc6m0MXclYZMZVQGvIuSLS2GK2LUbFoKlTaQtAgAD0iMkboAAgMiDTBANMgFQAGKcUmHtGomwcT2exPhcU3FW05BSkic8hssrtWbWeVZX1b3FhniJCCZRsU4BIIIdKmQEVUnYpbVIUXjAEw7G0kAmvQ8PuXh912prGvRZE8IVxUnKqzcFiTlLNWaKSLRKuM60IghpjaIqqaY2KViKDid+ZiHajJbPJYlK1l4+P9g/yctT8/L4cokjp8ee1+zLPq+yLSFxVpFACuRy+aYrGAdotICHam07UiqjXDFnj6tJRFEYEehalHPunLP2/VnHa9LyyZcqKm1qRztXjmeTE7nQ1eiKZKVFlkUpbRTxhlswMhlWHLKe33FrWQ0YZXXmLRnVcipbTao5/8m/7fDJ15yX1ny5Orhq9vdFggysKUVAbNJ7BUVtEHJRezsZqlArFcUw5QXFaRMkeNAdG+xMPG7A1Md2ytECoZUyoEjLDf1vwskE4Y9/u2Z2nMhVlsk6VFbPmjaeSDXkjJFzReqK25RPixz5Z2o13DHZM5fSoufdybOZmmOuZJyynntHSs0eQYwyym/Ka+Uc2uXTn08mWXTqNFlkjdVqlvsKJnVTJmAdB7ZY5Kgitp2rV9r+hcL7AkaXOlVToX3+wM5Q2/wDP3AbHboWLDTOITVpoiSu1pyoCC5xFSgq5lyIWijkXItkB7TlRsWCsii7ihAEdKCrxa2owsVaqFaiqTz1UE5QleJ2TsUUYpPkDo6cjSVy4ZOjaodpCGINHBoQBaAAdVo/l08Iy6uGtfKa3eLGSa14osVixCblPrYvUcWV3be4Y6bnj7xnlkzgA9jZDQplsFsBldTbHbTObnkziLDAACwjFAcmuN8owp4S3sGOhzV1Rn1Ol7foJGUAPQqSqgKWLbDO36eXuyxdEn0glVFFiasiAGBAAHqgBh6Wec/ZzQBrlx/Qs/S/lf2cUILWIvEEBToAEH0RQBVRn1fUBCJhwwKRUAE1r0vSABWoz9PigKjmijCKhUABLow9IARKugwqCD/gAGAAf/9k=");
+        background-size: 1500px;
+        background-repeat: no-repeat;
+    }
+
+    label {
+        font-weight: bold;
+    }
+</style>
+@ViewBag.email
+
+<br />
+<br />
+<div class="row">
+    <div class="col-6">
+        <h2 style="font-family:'Times New Roman'"><i class="fa fa-user"></i>&nbsp;Customer Details</h2>
+    </div>
+    <div class="col-6 text-right">
+        <a asp-action="CreateCustomer" asp-controller="Customer" class="fas fa-plus btn btn-info">Add New Customer</a>
+
+    </div>
+</div>
+<div class="jumbotron bg-light">
+    <div style="border:1px solid;padding:5px;">
+        <form method="get" asp-action="GetCustomerDetails" asp-controller="Customer">
+            <table class="col-md-12">
+                <tr class="text-monospace">
+                   <td><input type="search" class="form-control fa fa-search" value="@ViewBag.Search" name="search" placeholder="Email..." /></td>
+                    <td>
+                        <i class="fa fa-search"></i>
+                        <input type="submit" value="Search Customer" class="btn btn-info fa fa-search"/>
+                        <a asp-action="GetCustomerDetails" class="btn btn-info fa fa-search">All Customer</a>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+    <br />
+    <table class="table table-striped border">
+        <tr class="table-secondary">
+
+            <th>User Name</th>
+            <th>User Email</th>
+            <th>User Phone</th>
+            <th></th>
+            <th></th>
+
+            @foreach (var item in Model)
+            {
+                if (item.Role != "Admin")
+                {
+                <tr>
+                    <td>@item.Name</td>
+                    <td>@item.Email</td>
+                    <td>@item.PhoneNumber</td>
+        
+                    <td>
+                        <a asp-action="GetCustomerById" asp-controller="Customer" asp-route-Id="@item.Email" class="fas fa-car" style="text-decoration:none;">View Car</a>
+                    
+                    @*<a href="Customer/GetCustomerById?id=@item.Id">View Car</a>*@
+                    </td>
+                    <td>
+                        <a class="btn btn-primary text-white" asp-action="EditCustomer" asp-controller="Customer" asp-route-Id="@item.Id">
+                            <i class="fa fa-edit"></i>
+                        </a>
+                        <a class="btn btn-danger text-white" asp-action="DeleteCustomer" asp-controller="Customer" asp-route-Id="@item.Id">
+                            <i class="fa fa-trash"></i>
+                        </a>
+                    </td>
+                </tr>
+            }
+
+        }
+
+        </table>
+    </div>

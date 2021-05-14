@@ -1,0 +1,368 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\DotNETBatch2021\\TrainingProject\\SparkAutoFinalProject\\SparkAutoFinalProject\\SparkAutoFinalProject.csproj": {}
+  },
+  "projects": {
+    "D:\\DotNETBatch2021\\TrainingProject\\Spark.DataLayer\\Spark.DataLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\DotNETBatch2021\\TrainingProject\\Spark.DataLayer\\Spark.DataLayer.csproj",
+        "projectName": "Spark.DataLayer",
+        "projectPath": "D:\\DotNETBatch2021\\TrainingProject\\Spark.DataLayer\\Spark.DataLayer.csproj",
+        "packagesPath": "C:\\Users\\INDI\\.nuget\\packages\\",
+        "outputPath": "D:\\DotNETBatch2021\\TrainingProject\\Spark.DataLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\INDI\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\DotNETBatch2021\\TrainingProject\\Spark.DataModel\\Spark.DataModel.csproj": {
+                "projectPath": "D:\\DotNETBatch2021\\TrainingProject\\Spark.DataModel\\Spark.DataModel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Metadata": {
+              "target": "Package",
+              "version": "[3.1.12, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[3.1.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.12, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\DotNETBatch2021\\TrainingProject\\Spark.DataModel\\Spark.DataModel.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\DotNETBatch2021\\TrainingProject\\Spark.DataModel\\Spark.DataModel.csproj",
+        "projectName": "Spark.DataModel",
+        "projectPath": "D:\\DotNETBatch2021\\TrainingProject\\Spark.DataModel\\Spark.DataModel.csproj",
+        "packagesPath": "C:\\Users\\INDI\\.nuget\\packages\\",
+        "outputPath": "D:\\DotNETBatch2021\\TrainingProject\\Spark.DataModel\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\INDI\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\DotNETBatch2021\\TrainingProject\\Spark.RepositoryContract\\Spark.RepositoryContract.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\DotNETBatch2021\\TrainingProject\\Spark.RepositoryContract\\Spark.RepositoryContract.csproj",
+        "projectName": "Spark.RepositoryContract",
+        "projectPath": "D:\\DotNETBatch2021\\TrainingProject\\Spark.RepositoryContract\\Spark.RepositoryContract.csproj",
+        "packagesPath": "C:\\Users\\INDI\\.nuget\\packages\\",
+        "outputPath": "D:\\DotNETBatch2021\\TrainingProject\\Spark.RepositoryContract\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\INDI\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\DotNETBatch2021\\TrainingProject\\Spark.DataModel\\Spark.DataModel.csproj": {
+                "projectPath": "D:\\DotNETBatch2021\\TrainingProject\\Spark.DataModel\\Spark.DataModel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\DotNETBatch2021\\TrainingProject\\Spark.RepositoryLayer\\Spark.RepositoryLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\DotNETBatch2021\\TrainingProject\\Spark.RepositoryLayer\\Spark.RepositoryLayer.csproj",
+        "projectName": "Spark.RepositoryLayer",
+        "projectPath": "D:\\DotNETBatch2021\\TrainingProject\\Spark.RepositoryLayer\\Spark.RepositoryLayer.csproj",
+        "packagesPath": "C:\\Users\\INDI\\.nuget\\packages\\",
+        "outputPath": "D:\\DotNETBatch2021\\TrainingProject\\Spark.RepositoryLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\INDI\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\DotNETBatch2021\\TrainingProject\\Spark.DataLayer\\Spark.DataLayer.csproj": {
+                "projectPath": "D:\\DotNETBatch2021\\TrainingProject\\Spark.DataLayer\\Spark.DataLayer.csproj"
+              },
+              "D:\\DotNETBatch2021\\TrainingProject\\Spark.DataModel\\Spark.DataModel.csproj": {
+                "projectPath": "D:\\DotNETBatch2021\\TrainingProject\\Spark.DataModel\\Spark.DataModel.csproj"
+              },
+              "D:\\DotNETBatch2021\\TrainingProject\\Spark.RepositoryContract\\Spark.RepositoryContract.csproj": {
+                "projectPath": "D:\\DotNETBatch2021\\TrainingProject\\Spark.RepositoryContract\\Spark.RepositoryContract.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\DotNETBatch2021\\TrainingProject\\SparkAutoFinalProject\\SparkAutoFinalProject\\SparkAutoFinalProject.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\DotNETBatch2021\\TrainingProject\\SparkAutoFinalProject\\SparkAutoFinalProject\\SparkAutoFinalProject.csproj",
+        "projectName": "SparkAutoFinalProject",
+        "projectPath": "D:\\DotNETBatch2021\\TrainingProject\\SparkAutoFinalProject\\SparkAutoFinalProject\\SparkAutoFinalProject.csproj",
+        "packagesPath": "C:\\Users\\INDI\\.nuget\\packages\\",
+        "outputPath": "D:\\DotNETBatch2021\\TrainingProject\\SparkAutoFinalProject\\SparkAutoFinalProject\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\INDI\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\DotNETBatch2021\\TrainingProject\\Spark.DataLayer\\Spark.DataLayer.csproj": {
+                "projectPath": "D:\\DotNETBatch2021\\TrainingProject\\Spark.DataLayer\\Spark.DataLayer.csproj"
+              },
+              "D:\\DotNETBatch2021\\TrainingProject\\Spark.DataModel\\Spark.DataModel.csproj": {
+                "projectPath": "D:\\DotNETBatch2021\\TrainingProject\\Spark.DataModel\\Spark.DataModel.csproj"
+              },
+              "D:\\DotNETBatch2021\\TrainingProject\\Spark.RepositoryContract\\Spark.RepositoryContract.csproj": {
+                "projectPath": "D:\\DotNETBatch2021\\TrainingProject\\Spark.RepositoryContract\\Spark.RepositoryContract.csproj"
+              },
+              "D:\\DotNETBatch2021\\TrainingProject\\Spark.RepositoryLayer\\Spark.RepositoryLayer.csproj": {
+                "projectPath": "D:\\DotNETBatch2021\\TrainingProject\\Spark.RepositoryLayer\\Spark.RepositoryLayer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "FontAwesome": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.Facebook": {
+              "target": "Package",
+              "version": "[3.1.12, )"
+            },
+            "Microsoft.AspNetCore.Authentication.Google": {
+              "target": "Package",
+              "version": "[3.1.12, )"
+            },
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.12, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.12, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[3.1.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[3.1.12, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

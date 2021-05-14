@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SparkAutoFinalProject", "SparkAutoFinalProject\SparkAutoFinalProject.csproj", "{DD60B563-703D-4EC8-A091-29D699561ABE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spark.DataModel", "..\Spark.DataModel\Spark.DataModel.csproj", "{B0656DFF-ACC3-479F-AF4E-C9413FC51C90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spark.DataLayer", "..\Spark.DataLayer\Spark.DataLayer.csproj", "{B792521B-C797-401E-990A-5736E23FD0D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spark.RepositoryContract", "..\Spark.RepositoryContract\Spark.RepositoryContract.csproj", "{2C062BF1-DFD1-49A0-B5A5-868E34F81431}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spark.RepositoryLayer", "..\Spark.RepositoryLayer\Spark.RepositoryLayer.csproj", "{161E3F52-7464-4EA0-B381-7F72348FF659}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DD60B563-703D-4EC8-A091-29D699561ABE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD60B563-703D-4EC8-A091-29D699561ABE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD60B563-703D-4EC8-A091-29D699561ABE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD60B563-703D-4EC8-A091-29D699561ABE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0656DFF-ACC3-479F-AF4E-C9413FC51C90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0656DFF-ACC3-479F-AF4E-C9413FC51C90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0656DFF-ACC3-479F-AF4E-C9413FC51C90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0656DFF-ACC3-479F-AF4E-C9413FC51C90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B792521B-C797-401E-990A-5736E23FD0D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B792521B-C797-401E-990A-5736E23FD0D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B792521B-C797-401E-990A-5736E23FD0D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B792521B-C797-401E-990A-5736E23FD0D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C062BF1-DFD1-49A0-B5A5-868E34F81431}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C062BF1-DFD1-49A0-B5A5-868E34F81431}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C062BF1-DFD1-49A0-B5A5-868E34F81431}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C062BF1-DFD1-49A0-B5A5-868E34F81431}.Release|Any CPU.Build.0 = Release|Any CPU
+		{161E3F52-7464-4EA0-B381-7F72348FF659}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{161E3F52-7464-4EA0-B381-7F72348FF659}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{161E3F52-7464-4EA0-B381-7F72348FF659}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{161E3F52-7464-4EA0-B381-7F72348FF659}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D6F785D6-2183-46F1-AD06-D102C350808E}
+	EndGlobalSection
+EndGlobal

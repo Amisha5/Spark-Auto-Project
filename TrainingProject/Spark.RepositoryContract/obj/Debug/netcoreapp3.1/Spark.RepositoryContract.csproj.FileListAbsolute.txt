@@ -1,0 +1,12 @@
+D:\DotNETBatch2021\TrainingProject\Spark.RepositoryContract\bin\Debug\netcoreapp3.1\Spark.RepositoryContract.deps.json
+D:\DotNETBatch2021\TrainingProject\Spark.RepositoryContract\bin\Debug\netcoreapp3.1\Spark.RepositoryContract.dll
+D:\DotNETBatch2021\TrainingProject\Spark.RepositoryContract\bin\Debug\netcoreapp3.1\Spark.RepositoryContract.pdb
+D:\DotNETBatch2021\TrainingProject\Spark.RepositoryContract\obj\Debug\netcoreapp3.1\Spark.RepositoryContract.csprojAssemblyReference.cache
+D:\DotNETBatch2021\TrainingProject\Spark.RepositoryContract\obj\Debug\netcoreapp3.1\Spark.RepositoryContract.AssemblyInfoInputs.cache
+D:\DotNETBatch2021\TrainingProject\Spark.RepositoryContract\obj\Debug\netcoreapp3.1\Spark.RepositoryContract.AssemblyInfo.cs
+D:\DotNETBatch2021\TrainingProject\Spark.RepositoryContract\obj\Debug\netcoreapp3.1\Spark.RepositoryContract.csproj.CoreCompileInputs.cache
+D:\DotNETBatch2021\TrainingProject\Spark.RepositoryContract\obj\Debug\netcoreapp3.1\Spark.RepositoryContract.dll
+D:\DotNETBatch2021\TrainingProject\Spark.RepositoryContract\obj\Debug\netcoreapp3.1\Spark.RepositoryContract.pdb
+D:\DotNETBatch2021\TrainingProject\Spark.RepositoryContract\bin\Debug\netcoreapp3.1\Spark.DataModel.dll
+D:\DotNETBatch2021\TrainingProject\Spark.RepositoryContract\bin\Debug\netcoreapp3.1\Spark.DataModel.pdb
+D:\DotNETBatch2021\TrainingProject\Spark.RepositoryContract\obj\Debug\netcoreapp3.1\Spark.RepositoryContract.csproj.CopyComplete

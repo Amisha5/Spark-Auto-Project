@@ -1,0 +1,26 @@
+{
+  "version": "1.0",
+  "defaultProvider": "cdnjs",
+  "libraries": [
+    {
+      "library": "font-awesome@5.15.2",
+      "destination": "wwwroot/font-awesome/font-awesome/",
+      "files": [
+        "css/all.min.css",
+        "css/fontawesome.css",
+        "css/fontawesome.min.css",
+        "css/all.css"
+      ]
+    },
+    {
+      "library": "fontawesome-iconpicker@3.2.0",
+      "destination": "wwwroot/fontawesome-iconpicker/",
+      "files": [
+        "js/fontawesome-iconpicker.min.js",
+        "css/fontawesome-iconpicker.css",
+        "css/fontawesome-iconpicker.min.css",
+        "js/fontawesome-iconpicker.js"
+      ]
+    }
+  ]
+}

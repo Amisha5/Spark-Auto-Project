@@ -1,0 +1,124 @@
+﻿@model Spark.DataModel.Models.Car
+@{
+    ViewData["Title"] = "CreateCarDetails";
+}
+
+<style>
+    body {
+        background-color: black;
+        background-image: url("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxASDw8QEA8QDw8PDw8PDw8PDw8PDw8PFREWFhUVFRUYHSggGBolGxUVITEhJSkrLi4uFx8zODMtNygtLisBCgoKDg0OFQ8QFS0ZFRkrLSsrLS0rKy0tKystKystKystLS0tLSstKysrKy0rLTc3LS0tNystNy0tLTcrNzctK//AABEIAMIBAwMBIgACEQEDEQH/xAAaAAADAQEBAQAAAAAAAAAAAAAAAQIDBAUH/8QAKxABAQACAQIFAgYDAQAAAAAAAAECERIDYRMhMVGBQaFScZGxwfAEItEU/8QAGAEBAQEBAQAAAAAAAAAAAAAAAAECAwT/xAAaEQEBAQEBAQEAAAAAAAAAAAAAARECEiED/9oADAMBAAIRAxEAPwD7HsbLYdXkFGy2JRNO1nlTqVjNoVimQWiHclREi9ixfI8EbOZI3K1tZ7OX1rK5Eh10M8kypp41pz1WWSdlaQi8fVWVRKBdM8Ym1UBNvmBsCDFcqFY1FhgbKinT2kQNWNkVRT2E7C4mrBBFOJVklShKqijNPl5FshFRcppOI0YIZArfkztPKpolpWiELVQWnCipAAlAAHaVKgNqZrxAtqSYKlVpHT9Vo1CyE9BfUUChiQ6CSVAJigCFO0gehSyQrJCs0HCMQwRiniVo2AKkrRaEQFFMQEVowKnRmKIkqq4psQKKgmKrFE6Krp44RFwYxa7053K4JrfmxlPUVUxVxq6mIhNLKjLELDAADR3E8YOKLibBVcU5AjJCsi0rFEMBUAMSAANHBRotHaSCV4oWpDBBFOKkQx8PL8X3oOi0tMdX8X8r2GnaLUhWVReLLbWJWo0xyGVZcuxeImNemsFqMsxyMPS02jLNMygWqkMcgL8UCCKLWel1Kxms7DirBIrGJ0F6LiGJkVfQwLidHoxQToaOQWAmYnCpKiqm0UAezv8AYnFcQgxxvaIy/Npth1MvMW4ezZ7P5VlW6rlU/JSd0GnMSp0XIXVCouRXIRofJjlknkK65Q4ud9wLtd4II3pkAJoAAmAAKEDAhAADLI5DsRWWRaXxGlTEWhfErFTBosKqFliinkzyhXLXknLqCDQ1Pdnc6m0MXclYZMZVQGvIuSLS2GK2LUbFoKlTaQtAgAD0iMkboAAgMiDTBANMgFQAGKcUmHtGomwcT2exPhcU3FW05BSkic8hssrtWbWeVZX1b3FhniJCCZRsU4BIIIdKmQEVUnYpbVIUXjAEw7G0kAmvQ8PuXh912prGvRZE8IVxUnKqzcFiTlLNWaKSLRKuM60IghpjaIqqaY2KViKDid+ZiHajJbPJYlK1l4+P9g/yctT8/L4cokjp8ee1+zLPq+yLSFxVpFACuRy+aYrGAdotICHam07UiqjXDFnj6tJRFEYEehalHPunLP2/VnHa9LyyZcqKm1qRztXjmeTE7nQ1eiKZKVFlkUpbRTxhlswMhlWHLKe33FrWQ0YZXXmLRnVcipbTao5/8m/7fDJ15yX1ny5Orhq9vdFggysKUVAbNJ7BUVtEHJRezsZqlArFcUw5QXFaRMkeNAdG+xMPG7A1Md2ytECoZUyoEjLDf1vwskE4Y9/u2Z2nMhVlsk6VFbPmjaeSDXkjJFzReqK25RPixz5Z2o13DHZM5fSoufdybOZmmOuZJyynntHSs0eQYwyym/Ka+Uc2uXTn08mWXTqNFlkjdVqlvsKJnVTJmAdB7ZY5Kgitp2rV9r+hcL7AkaXOlVToX3+wM5Q2/wDP3AbHboWLDTOITVpoiSu1pyoCC5xFSgq5lyIWijkXItkB7TlRsWCsii7ihAEdKCrxa2owsVaqFaiqTz1UE5QleJ2TsUUYpPkDo6cjSVy4ZOjaodpCGINHBoQBaAAdVo/l08Iy6uGtfKa3eLGSa14osVixCblPrYvUcWV3be4Y6bnj7xnlkzgA9jZDQplsFsBldTbHbTObnkziLDAACwjFAcmuN8owp4S3sGOhzV1Rn1Ol7foJGUAPQqSqgKWLbDO36eXuyxdEn0glVFFiasiAGBAAHqgBh6Wec/ZzQBrlx/Qs/S/lf2cUILWIvEEBToAEH0RQBVRn1fUBCJhwwKRUAE1r0vSABWoz9PigKjmijCKhUABLow9IARKugwqCD/gAGAAf/9k=");
+        background-size: 1500px;
+        background-repeat: no-repeat;
+    }
+
+    label {
+        font-weight: bold;
+    }
+</style>
+
+<form method="post" asp-action="CreateCarDetails">
+    <div class="jumbotron backgroundWhite">
+       
+        <h2 style="font-family:'Times New Roman';"><i class="fa fa-car"></i>&nbsp;Add New Car </h2>
+        <br />
+        @*<div asp-validation-summary="All" class="text-danger"></div>*@
+        <div class="form-group row">
+            <div class="col-2">
+                <label asp-for="ApplicationUserId">User ID</label>
+            </div>
+            <div class="col-5">
+
+                <input asp-for="ApplicationUserId" class="form-control" value="@ViewBag.Id" />
+                <span asp-validation-for="ApplicationUserId" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group row">
+            <div class="col-2">
+
+                @*<input asp-for="CarId" hidden value="@Model.CarId" class="form-control" />*@
+                <label asp-for="VIN">VIN</label>
+            </div>
+            <div class="col-5">
+                <input asp-for="VIN" class="form-control" />
+                <span asp-validation-for="VIN" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group row">
+            <div class="col-2">
+                <label asp-for="Make">Make</label>
+            </div>
+            <div class="col-5">
+                <input asp-for="Make" class="form-control" />
+                <span asp-validation-for="Make" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group row">
+            <div class="col-2">
+                <label asp-for="Model">Model</label>
+            </div>
+            <div class="col-5">
+                <input asp-for="Model" class="form-control" />
+                <span asp-validation-for="Make" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group row">
+            <div class="col-2">
+                <label asp-for="Style">Style</label>
+            </div>
+            <div class="col-5">
+                <input asp-for="Style" class="form-control" />
+                <span asp-validation-for="Make" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group row">
+            <div class="col-2">
+                <label asp-for="YearCount">YearCount</label>
+            </div>
+            <div class="col-5">
+                <input asp-for="YearCount" class="form-control" />
+                <span asp-validation-for="YearCount" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group row">
+            <div class="col-2">
+                <label asp-for="Miles">Miles</label>
+            </div>
+            <div class="col-5">
+                <input asp-for="Miles" class="form-control" />
+                <span asp-validation-for="Miles" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group row">
+            <div class="col-2">
+                <label asp-for="CarColor">Color</label>
+            </div>
+            <div class="col-2">
+
+                <select asp-for="CarColor" class="form-control" asp-items="Html.GetEnumSelectList(typeof(Spark.DataModel.Models.CarColor))"></select>
+                <span asp-validation-for="CarColor" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <div class="col-2">
+                <input type="submit" class="btn btn-primary" value="Save" />
+
+            </div>
+            <div class="col-2">
+                @if (User.Identity.Name == "amisha@gmail.com")
+                {
+                    <a asp-route-Id="@ViewBag.Id" asp-action="GetCustomerById" asp-controller="Customer" class="btn btn-danger form-control" style="float:right;text-decoration:none;">Back</a>
+
+                }
+                else
+                {
+                    <a asp-route-Id="@User.Identity.Name" asp-action="CustomerPage" asp-controller="User" class="btn btn-danger form-control" style="float:right;text-decoration:none;">Back</a>
+
+                }
+            </div>
+        </div>
+    </div>
+    </form>
+    @section Scripts {
+        <partial name="_ValidationScriptsPartial" />
+    }

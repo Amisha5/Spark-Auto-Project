@@ -1,0 +1,122 @@
+﻿@page
+@model RegisterModel
+@{
+    //ViewData["Title"] = "Register";
+}
+
+<style>
+    body 
+     {
+        background-color: black;
+        background-image: url("data:image/jpeg;base64,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");
+        background-size: 1500px;
+        background-repeat: repeat;
+    
+    }
+    label
+    {
+        font-weight:bold;
+    }
+</style>
+<h1>@ViewData["Title"]</h1>
+<br />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-route-returnUrl="@Model.ReturnUrl" method="post">
+
+            <h3 style="font-family:'Times New Roman';">
+
+                <i class="fa fa-user"></i> Register
+
+            </h3>
+            <hr />
+            @*<div asp-validation-summary="All" class="text-danger"></div>*@
+            <div class="form-group">
+                <label asp-for="Input.Name"></label>
+                <input asp-for="Input.Name" class="form-control" />
+                <span asp-validation-for="Input.Name" class="text-danger"></span>
+
+            </div>
+            <div class="form-group">
+                <label asp-for="Input.Email"></label>
+                <input asp-for="Input.Email" class="form-control" />
+                <span asp-validation-for="Input.Email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Input.MobileNumber"></label>
+                <input asp-for="Input.MobileNumber" class="form-control" />
+                <span asp-validation-for="Input.MobileNumber" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Input.City"></label>
+                <input asp-for="Input.City" class="form-control" />
+                <span asp-validation-for="Input.City" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Input.Address"></label>
+                <input asp-for="Input.Address" class="form-control" />
+                <span asp-validation-for="Input.Address" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Input.PostalCode"></label>
+                <input asp-for="Input.PostalCode" class="form-control" />
+                <span asp-validation-for="Input.PostalCode" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Input.Password"></label>
+                <input asp-for="Input.Password" class="form-control" />
+                <span asp-validation-for="Input.Password" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Input.ConfirmPassword"></label>
+                <input asp-for="Input.ConfirmPassword" class="form-control" />
+                <span asp-validation-for="Input.ConfirmPassword" class="text-danger"></span>
+            </div>
+            <!--<div class="form-group row">
+                <div class="col-2">
+                    <label asp-for="Input.Role">IsAdmin</label>
+                </div>
+                <div class="col-4">-->
+                    @*<input asp-for="PostalCode" class="form-control" />*@
+                    <!--<input type="checkbox" asp-for="Input.Role" value="Admin" class="design">-->
+                    @*<span asp-validation-for="PostalCode" class="text-danger"></span>*@
+                <!--</div>
+            </div>-->
+            <button type="submit" class="btn btn-primary">Register</button>
+        </form>
+    </div>
+    <div class="col-md-6 col-md-offset-2">
+        <section>
+            <h4 style="font-family:'Times New Roman';font-weight:bold;">Use another Service to Register.</h4>
+            <hr />
+            @{
+                if ((Model.ExternalLogins?.Count ?? 0) == 0)
+                {
+                    <div>
+                        <p>
+                            There are no external authentication services configured. See <a href="https://go.microsoft.com/fwlink/?LinkID=532715">this article</a>
+                            for details on setting up this ASP.NET application to support logging in via external services.
+                        </p>
+                    </div>
+                }
+                else
+                {
+                    <form id="external-account" asp-page="./ExternalLogin" asp-route-returnUrl="@Model.ReturnUrl" method="post" class="form-horizontal">
+                        <div>
+                            <p>
+                                @foreach (var provider in Model.ExternalLogins)
+                                {
+                                    <button type="submit" class="btn btn-primary" name="provider" value="@provider.Name" title="Log in using your @provider.DisplayName account">@provider.DisplayName</button>
+                                }
+                            </p>
+                        </div>
+                    </form>
+                }
+            }
+        </section>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

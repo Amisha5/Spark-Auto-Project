@@ -1,0 +1,113 @@
+﻿@model SparkAutoFinalProject.ViewModels.CarCustomerViewModel
+@{
+    ViewData["Title"] = "CustomerPage";
+}
+<br />
+<br />
+<div class="container backgroundWhite">
+    <div class="card">
+        <div class="card-header bg-dark text-light ml-0 row container">
+            <div class="col-12">
+                <i class="fas fa-car"></i>
+              
+            </div>
+
+        </div>
+        <div class="card-body">
+            <div class="row" style="padding-bottom:40px; padding-top:20px;">
+                <div class="col-md-3">
+                    <p>
+                        <a asp-action="CreateCarDetails" asp-controller="Customer" asp-route-userId="@ViewBag.Id" class="btn btn-info form-control">
+                            <i class="fas fa-plus"></i> &nbsp; Add New Car
+                        </a>
+                    </p>
+                </div>
+                <div class="col-md-6 offset-md-3">
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <label asp-for="@Model.applicationUser.Name"></label>
+                        </div>
+                        <div class="col-sm-8" style="padding-bottom:5px;">
+                            <input asp-for="@Model.applicationUser.Name" disabled class="form-control" />
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <label asp-for="@Model.applicationUser.PhoneNumber"></label>
+                        </div>
+                        <div class="col-sm-8" style="padding-bottom:5px;">
+                            <input asp-for="@Model.applicationUser.PhoneNumber" disabled class="form-control" />
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-4" style="padding-bottom:5px;">
+                            <label asp-for="@Model.applicationUser.Email"></label>
+                        </div>
+                        <div class="col-sm-8">
+                            <input asp-for="@Model.applicationUser.Email" disabled class="form-control" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            @if (Model.Cars.Count() == 0)
+            {
+                <p>
+                    No Car Found! Please add a car...
+                </p> }
+            else
+            {
+                <table class="table table-striped border">
+                    <tr class="table-secondary">
+                        <th>
+                            @Html.DisplayNameFor(m => m.Cars.FirstOrDefault().VIN)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(m => m.Cars.FirstOrDefault().Make)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(m => m.Cars.FirstOrDefault().Model)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(m => m.Cars.FirstOrDefault().CarColor)
+                        </th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                    </tr>
+                    @foreach (var item in Model.Cars)
+                    {
+                        <tr>
+                            <td>
+                                @Html.DisplayFor(m => item.VIN)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(m => item.Make)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(m => item.Model)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(m => item.CarColor)
+                            </td>
+                            <td>
+                                <a class="btn btn-secondary" asp-action="GetServiceHistory" asp-route-Id="@item.ApplicationUserId" asp-route-carId="@item.CarId" asp-controller="Customer">
+                                    <i class="fas fa-wrench"></i> &nbsp; Service History
+                                </a>
+                            </td>
+                         
+                            <td>
+                                <a class="btn btn-primary text-white" asp-action="EditCarDetails" asp-controller="Customer" asp-route-Id="@item.CarId">
+                                    <i class="fa fa-edit"></i>
+                                </a>
+                                <a class="btn btn-danger text-white" asp-action="DeleteCar" asp-controller="Customer" asp-route-Id="@item.CarId">
+                                    <i class="fa fa-trash"></i>
+                                </a>
+                            </td>
+
+                        </tr>
+}
+                </table>    }
+        </div>
+    </div>
+</div>
+

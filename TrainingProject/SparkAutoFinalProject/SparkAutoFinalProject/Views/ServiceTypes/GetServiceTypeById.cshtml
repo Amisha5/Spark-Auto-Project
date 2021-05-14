@@ -1,0 +1,57 @@
+﻿@model Spark.DataModel.Models.CarServiceType
+@{
+    ViewData["Title"] = "GetServiceTypeById";
+}
+
+<style>
+    body {
+        background-color: black;
+        background-image: url("data:image/jpeg;base64,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");
+        background-size: 1500px;
+        background-repeat: no-repeat;
+    }
+    label
+    {
+        font-weight:bold;
+    }
+</style>
+<br />
+<br />
+<div class=" jumbotron  backgroundWhite">
+    <br />
+    <h2 style="font-family:'Times New Roman'"><i class="fas fa-wrench"></i> &nbsp;Service Type Details</h2>
+    <br />
+    <div class="form-group row">
+        <div class="col-2">
+            <label asp-for="Name">Name:</label>
+        </div>
+        <div class="col-3">
+            <input asp-for="@Model.Name" disabled class="form-control" />
+        </div>
+    </div>
+    <div class="form-group row">
+        <div class="col-2">
+            <label asp-for="Price">$Price:</label>
+        </div>
+        <div class="col-3">
+            <input asp-for="@Model.Price" disabled class="form-control" />
+        </div>
+    </div>
+    
+
+    <div class="form-group row">
+        <div class="col-2 offset-2">
+
+
+            <div class="row">
+
+                <div class="col-2">
+                    <a class="btn btn-danger" asp-action="GetServiceType" asp-controller="ServiceTypes">Back</a>
+                </div>
+            </div>
+        </div>
+      </div>
+
+   
+
+</div>

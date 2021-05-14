@@ -1,0 +1,205 @@
+﻿@model SparkAutoFinalProject.ViewModels.CarServiceViewModel
+
+
+@{
+    ViewData["Title"] = "CreateNewService";
+}
+
+<style>
+    body {
+        background-color: black;
+        background-image: url("data:image/jpeg;base64,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");
+        background-size: 1500px;
+        background-repeat: no-repeat;
+    }
+
+    label {
+        font-weight: bold;
+    }
+</style>
+<a class="btn btn-info" href="../GetCustomerById/@Model.ApplicationUsers.Email" style="float:right;color:black;text-decoration:none;">
+    <i class="fa fa-backward"></i> &nbsp; Back To list
+</a>
+
+<div class="jumbotron" asp-for="CreateNewService">
+    
+    @{
+        double Total = 0.0;
+    }
+    <br />
+    <div class="container">
+        <div class="card">
+            <div class="card-header bg-dark text-light ml-0 row container">
+                <div class="col-12">
+                    <i class="fa fa-user"></i>
+                    <div class="">
+                        <label>@Model.ApplicationUsers.Name <br /> @Model.ApplicationUsers.Email / @Model.ApplicationUsers.PhoneNumber </label>
+
+                        <div class="float-right">
+                            <label>@Model.Car.CarColor <br /> @Model.Car.Model / @Model.Car.Miles </label>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="card-body row">
+
+                <form method="post">
+
+                    @*<div class="row">
+                        <div class="col-sm-4">
+                            <label>Add Service</label>
+                        </div>
+                        <div class="col-sm-4" style="padding-bottom:5px;">
+                            <label>Add Service</label>
+                        </div>
+                        <div class="col-sm-4">
+                            <label>Add Service</label>
+                        </div>
+                    </div>*@
+
+                    <table class="col-lg-12">
+                        <tr>
+                            <td>
+                                <div class="form-group row">
+                                    <div class="col-md-4">
+                                        <label>Add Service</label>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="col-md-4">
+                                    <select class="dropdown-header" name="ServiceTypeId">
+                                        <option value="14" class="dropdown-header dropdown-item">Oil Change - Basic</option>
+                                        <option value="16" class="dropdown-header dropdown-item">Oil Change - Full Synthetic</option>
+                                        <option value="17" class="dropdown-header dropdown-item">Oil Change - Semi Synthetic</option>
+                                    </select>
+                                    @*<select>
+                            @foreach (var item in collection)
+                            {
+
+                            }
+                        </select>*@
+
+                                </div>
+                            </td>
+                            <td>
+
+                                <button type="submit" class="btn btn-info" asp-action="ServiceSummary" asp-route-carId="@Model.Car.CarId" asp-route-Id="@Model.Car.ApplicationUserId">Add</button>
+
+                            </td>
+
+                        </tr>
+
+                    </table>
+
+                </form>
+            </div>
+            <div class="row" style="margin-left:10px;">
+                @if (Model.Cart.Count() == 0)
+                {
+                    <div class=" col-md-10 border" style="margin-bottom:10px;">
+                        <h1 style="color:dodgerblue;">Service Summary</h1>
+                        <p>No service has been added yet. Please add service to be performed.</p>
+                        <br />
+                    </div>
+                }
+                else
+                {
+                    <div class="col-md-6">
+
+                        <form method="post">
+                            <table class="table table-striped border">
+                                <tr class="table-secondary">
+
+                                    <th>Service Name</th>
+                                    <th>Service Price</th>
+
+                                    <th></th>
+                                </tr>
+                                @foreach (var item in Model.Cart)
+                                {
+                                    <tr>
+
+                                        <td>@item.ServiceType.Name</td>
+                                        <td>@item.ServiceType.Price</td>
+
+                                        <td style="width:150px;">
+                                            <div class="btn-group" role="group">
+
+                                                <a class="btn btn-danger text-white" asp-action="DeleteNewService" asp-route-carId="@Model.Car.CarId" asp-route-Id="@Model.ApplicationUsers.Email" asp-route-shopId="@item.Id">
+                                                    <i class="fa fa-trash"></i>
+                                                </a>
+                                            </div>
+
+                                        </td>
+                                    </tr>
+                                }
+                                <tr>
+                                    <td>TotalPrice : </td>
+
+                                    @foreach (var item in Model.Cart)
+                                    {
+                                        Total += @item.ServiceType.Price;
+                                    }
+                                    <td>@Total</td>
+                                    <td></td>
+                                </tr>
+
+                            </table>
+
+                        </form>
+
+
+
+                    </div>
+                }
+                    <div class="col-md-5">
+                        @if (Model.Cart.Count() != 0)
+                        {
+                            <form method="post">
+                                <div class="row">
+                                    <div class="col-sm-2">
+
+                                    </div>
+                                    <div class="col-sm-10" style="padding-bottom:5px;">
+                                        <input type="text" name="Miles" placeholder="Miles" class="form-control" style="width:100%;" />
+
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-2">
+
+                                    </div>
+                                    <div class="col-sm-10" style="padding-bottom:5px;">
+                                        <textarea type="text" cols="20" rows="4" name="Details" placeholder="Comment" class="form-control"></textarea>
+
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-2">
+                                        @*<label asp-for="@item.Miles"></label>*@
+                                    </div>
+                                    <div class="col-sm-10" style="padding-bottom:5px;">
+                                        <button type="submit" class="btn btn-success" asp-action="ServiceComplete" asp-route-Carid="@Model.Car.CarId" asp-route-Id="@Model.ApplicationUsers.Email">Service Completed</button>
+
+                                    </div>
+                                </div>
+
+
+
+                            </form>
+                        }
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+

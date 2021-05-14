@@ -1,0 +1,123 @@
+﻿@model SparkAutoFinalProject.ViewModels.CarServiceViewModel
+@*@model IEnumerable<Spark.DataModel.Models.CarServiceHistory>*@
+@{
+    ViewData["Title"] = "GetServiceHistory";
+}
+
+<style>
+    body {
+        background-color: black;
+        background-image: url("data:image/jpeg;base64,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");
+        background-size: 1500px;
+        background-repeat: no-repeat;
+    }
+
+    label {
+        font-weight: bold;
+    }
+</style>
+@{
+    double TotalPrice = 0.0;
+}
+
+
+
+
+
+<br />
+<br />
+<div class="jumbotron">
+   
+    <div class="row">
+        <div class="col-6">
+            <h2 style="font-family:'Times New Roman'"><i class="fas fa-wrench"></i>&nbsp;Service Type List</h2>
+        </div>
+        <div class="col-6 text-right">
+            @if (User.Identity.Name == "amisha@gmail.com")
+            {
+                <a class="btn btn-outline-success" href="../GetCustomerById/@Model.ApplicationUsers.Email" style="float:right;text-decoration:none;">
+                    <i class="fa fa-backward"></i> &nbsp; Back To List
+                </a>
+            }
+            else
+            {
+                <a class="btn btn-outline-success" href="/User/CustomerPage/@Model.ApplicationUsers.Email" style="float:right;text-decoration:none;">
+                    <i class="fa fa-backward"></i> &nbsp; Back To list
+                </a>
+            }
+           
+        </div>
+    </div>
+    <br />
+    <div class="container">
+        <div class="card">
+            <div class="card-header bg-dark text-light ml-0 row container">
+                <div class="col-12">
+                    <i class="fa fa-user"></i>
+                    <div class=" text-info">
+                        <label>@Model.ApplicationUsers.Name <br /> @Model.ApplicationUsers.Email / @Model.ApplicationUsers.PhoneNumber </label>
+
+
+                        <div style="float:right;" class="text-info">
+
+                            @if (@Model.ServiceHistory.Count() != 0)
+                            {
+
+                                <label>@Model.ServiceHistoryyy.Car.CarColor <br />@Model.ServiceHistoryyy.Car.Model / @Model.ServiceHistoryyy.Car.Miles </label>
+
+
+                            }
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card-body">
+                @if (Model.ServiceHistory.Count() == 0)
+                {
+                    <p>No Services found in your account!!!!!!!!</p>
+                }
+                else
+                {
+
+
+                    <table class="table table-striped border">
+                        <tr class="table-secondary">
+                            <th>Miles</th>
+                            <th>TotalPrice</th>
+                            <th>Details</th>
+                            <th>DateAdded</th>
+                            <th></th>
+                            <th></th>
+                            @foreach (var item in Model.ServiceHistory)
+                            {
+
+                            <tr>
+                                <td>@item.Miles</td>
+
+
+                                @foreach (var items in Model.Cart)
+                                {
+                                    TotalPrice += @items.ServiceType.Price;
+                                }
+                                <td>@TotalPrice</td>
+
+                                <td>@item.Details</td>
+
+                                <td>@item.DateAdded</td>
+
+                                <td>
+                                    <a class="btn btn-primary text-white" asp-action="GetServiceHistoryDetails" asp-controller="Customer" asp-route-cId="@item.CarId" asp-route-sId="@item.Id" asp-route-Id="@item.Car.ApplicationUserId">
+                                        <i class="fa fa-list-alt"></i>Details
+                                    </a>
+                                </td>
+                            </tr>
+
+
+                        }
+                        </table>
+                    }
+            </div>
+        </div>
+    </div>
+</div>

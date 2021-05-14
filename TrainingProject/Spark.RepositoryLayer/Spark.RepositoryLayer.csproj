@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Spark.DataLayer\Spark.DataLayer.csproj" />
+    <ProjectReference Include="..\Spark.DataModel\Spark.DataModel.csproj" />
+    <ProjectReference Include="..\Spark.RepositoryContract\Spark.RepositoryContract.csproj" />
+  </ItemGroup>
+
+</Project>

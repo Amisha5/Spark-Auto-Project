@@ -1,0 +1,9 @@
+D:\DotNETBatch2021\TrainingProject\Spark.DataModel\bin\Debug\netcoreapp3.1\Spark.DataModel.deps.json
+D:\DotNETBatch2021\TrainingProject\Spark.DataModel\bin\Debug\netcoreapp3.1\Spark.DataModel.dll
+D:\DotNETBatch2021\TrainingProject\Spark.DataModel\bin\Debug\netcoreapp3.1\Spark.DataModel.pdb
+D:\DotNETBatch2021\TrainingProject\Spark.DataModel\obj\Debug\netcoreapp3.1\Spark.DataModel.csprojAssemblyReference.cache
+D:\DotNETBatch2021\TrainingProject\Spark.DataModel\obj\Debug\netcoreapp3.1\Spark.DataModel.AssemblyInfoInputs.cache
+D:\DotNETBatch2021\TrainingProject\Spark.DataModel\obj\Debug\netcoreapp3.1\Spark.DataModel.AssemblyInfo.cs
+D:\DotNETBatch2021\TrainingProject\Spark.DataModel\obj\Debug\netcoreapp3.1\Spark.DataModel.csproj.CoreCompileInputs.cache
+D:\DotNETBatch2021\TrainingProject\Spark.DataModel\obj\Debug\netcoreapp3.1\Spark.DataModel.dll
+D:\DotNETBatch2021\TrainingProject\Spark.DataModel\obj\Debug\netcoreapp3.1\Spark.DataModel.pdb

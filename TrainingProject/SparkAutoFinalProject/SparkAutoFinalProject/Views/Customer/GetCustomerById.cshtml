@@ -1,0 +1,135 @@
+﻿@model SparkAutoFinalProject.ViewModels.CarCustomerViewModel
+@{
+    ViewData["Title"] = "GetCustomerById";
+}
+
+<style>
+    body {
+        background-color: black;
+        background-image: url("data:image/jpeg;base64,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");
+        background-size: 1500px;
+        background-repeat: no-repeat;
+    }
+
+    label {
+        font-weight: bold;
+    }
+</style>
+<br />
+<br />
+
+<div class="container backgroundWhite">
+    <div class="card">
+        <div class="card-header bg-dark text-light ml-0 row container">
+            <div class="col-12">
+                <i class="fas fa-car"></i>
+                <a class="" asp-action="GetCustomerDetails" asp-controller="Customer" style="float:right;color:white;text-decoration:none;">
+                    <i class="fa fa-backward"></i> &nbsp; Back To list
+                </a>
+            </div>
+          
+        </div>
+        <div class="card-body">
+            <div class="row" style="padding-bottom:40px; padding-top:20px;">
+                <div class="col-md-3">
+                    <p>
+                        <a asp-action="CreateCarDetails" asp-controller="Customer" asp-route-Id="@ViewBag.Id" class="btn btn-info form-control">
+                            <i class="fas fa-plus"></i> &nbsp; Add New Car
+                        </a>
+                    </p>
+                </div>
+                <div class="col-md-6 offset-md-3">
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <label asp-for="@Model.applicationUser.Name"></label>
+                        </div>
+                        <div class="col-sm-8" style="padding-bottom:5px;">
+                            <input asp-for="@Model.applicationUser.Name" disabled class="form-control" />
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <label asp-for="@Model.applicationUser.PhoneNumber"></label>
+                        </div>
+                        <div class="col-sm-8" style="padding-bottom:5px;">
+                            <input asp-for="@Model.applicationUser.PhoneNumber" disabled class="form-control" />
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-4" style="padding-bottom:5px;">
+                            <label asp-for="@Model.applicationUser.Email"></label>
+                        </div>
+                        <div class="col-sm-8">
+                            <input asp-for="@Model.applicationUser.Email" disabled class="form-control" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            @if (Model.Cars.Count() == 0)
+            {
+<p>
+    No Car Found! Please add a car...
+</p> }
+            else
+            {
+<table class="table table-striped border">
+    <tr class="table-secondary">
+        <th>
+            @Html.DisplayNameFor(m => m.Cars.FirstOrDefault().VIN)
+        </th>
+        <th>
+            @Html.DisplayNameFor(m => m.Cars.FirstOrDefault().Make)
+        </th>
+        <th>
+            @Html.DisplayNameFor(m => m.Cars.FirstOrDefault().Model)
+        </th>
+        <th>
+            @Html.DisplayNameFor(m => m.Cars.FirstOrDefault().CarColor)
+        </th>
+        <th></th>
+        <th></th>
+        <th></th>
+    </tr>
+    @foreach (var item in Model.Cars)
+    {
+<tr>
+    <td>
+        @Html.DisplayFor(m => item.VIN)
+    </td>
+    <td>
+        @Html.DisplayFor(m => item.Make)
+    </td>
+    <td>
+        @Html.DisplayFor(m => item.Model)
+    </td>
+    <td>
+        @Html.DisplayFor(m => item.CarColor)
+    </td>
+    <td>
+        <a class="btn btn-secondary" asp-action="GetServiceHistory" asp-route-Id="@item.ApplicationUserId" asp-route-carId="@item.CarId">
+            <i class="fas fa-wrench"></i> &nbsp; Service History
+        </a>
+    </td>
+    <td>
+        <a class="btn btn-success" asp-action="CreateNewService" asp-controller="Customer" asp-route-sId="@item.CarId" asp-route-Id="@item.ApplicationUserId">
+            <i class="fa fa-plus"></i> &nbsp; New Service
+        </a>
+    </td>
+    <td>
+
+        <a class="btn btn-primary text-white" asp-action="EditCarDetails" asp-controller="Customer" asp-route-Id="@item.CarId">
+            <i class="fa fa-edit"></i>
+        </a>
+        
+      
+      
+        <a class="btn btn-danger text-white" asp-controller="Customer" asp-action="DeleteCar" asp-route-Id="@item.CarId">
+            <i class="fa fa-trash"></i>
+        </a>
+    </td>
+
+</tr>}
+</table>            }
+        </div>
+    </div>
+</div>
