@@ -12,16 +12,16 @@ Website for Service center in ASP .NET CORE.
 When I click on View Cars link, you can see the following page.**
 ![S3](https://user-images.githubusercontent.com/53462568/118347998-f1062180-b564-11eb-972f-85aefceb5597.png)
 
+
+**This customer does not have any cars.</br>
+When you click on Back to Users link on the navbar you will see the following page again**
+![S2](https://user-images.githubusercontent.com/53462568/118348025-109d4a00-b565-11eb-8121-c3a316c1f6b6.png)
+
 **On click of Add customer,Edit and Delete icon ,User data will be edit and delete**
 ###ADD Customer Detail
 ![S2 2](https://user-images.githubusercontent.com/53462568/118349056-0763ab80-b56c-11eb-850e-da98d8535f2f.png)
 ###Edit Customer Detail
 ![S2 1](https://user-images.githubusercontent.com/53462568/118348980-670d8700-b56b-11eb-8f42-cbea07c2bb1d.png)
-
-
-**This customer does not have any cars.</br>
-When you click on Back to Users link on the navbar you will see the following page again**
-![S2](https://user-images.githubusercontent.com/53462568/118348025-109d4a00-b565-11eb-8121-c3a316c1f6b6.png)
 
 **When I click on a user who has cars I should see the following screen**
 ![S4](https://user-images.githubusercontent.com/53462568/118348033-214dc000-b565-11eb-8e4e-0aad0cab1a8a.png)
