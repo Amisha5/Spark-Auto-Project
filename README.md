@@ -3,6 +3,7 @@ Website for Service center in ASP .NET CORE.
 **Webiste front view**
 ![S0](https://user-images.githubusercontent.com/53462568/118270999-5ebb3a80-b4de-11eb-9f1e-501d20734724.png)
 
+#ADMIN LOGIN
 **Once I login as Admin**
 ![S1](https://user-images.githubusercontent.com/53462568/118271055-6f6bb080-b4de-11eb-8374-6d49addcbe38.png)
 ![S2](https://user-images.githubusercontent.com/53462568/118271071-74306480-b4de-11eb-8e4e-16c8018bbac1.png)
@@ -64,13 +65,22 @@ When you click on Back to Users link on the navbar you will see the following pa
 
 
 
+##SERVICE TYPE LIST
+
+**on click of service type on navbar the below screenshot will come**
+![st](https://user-images.githubusercontent.com/53462568/118351142-cffafc00-b577-11eb-972b-4c6ed9d22fc0.png)
+![st1](https://user-images.githubusercontent.com/53462568/118351146-d6897380-b577-11eb-9a6d-ddced56ca0f2.png)
+
+**On click of Add new service below page will appear**
+![st2](https://user-images.githubusercontent.com/53462568/118351162-e903ad00-b577-11eb-8a7b-8c0fd9695c4d.png)
+
+**After adding service into service list, the service list page will be look like this**
+![st3](https://user-images.githubusercontent.com/53462568/118351163-ee60f780-b577-11eb-8b5e-f70d63c31405.png)
+
+**On click of edit service icon this page will appear**
+![st4](https://user-images.githubusercontent.com/53462568/118351191-16505b00-b578-11eb-9e17-0010c6486f95.png)
 
 
-
-
-
-
-
-
-
+**After Delete the Service, the service list looks like this**
+![st5](https://user-images.githubusercontent.com/53462568/118351223-58799c80-b578-11eb-8e0b-4b2d8755122e.png)
 
