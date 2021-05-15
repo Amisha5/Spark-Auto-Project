@@ -26,14 +26,7 @@ When you click on Back to Users link on the navbar you will see the following pa
 **When I click on a user who has cars I should see the following screen**
 ![S4](https://user-images.githubusercontent.com/53462568/118348033-214dc000-b565-11eb-8e4e-0aad0cab1a8a.png)
 
-**When I click on AddNewCar button the following screen should be visible**
-![S3_1](https://user-images.githubusercontent.com/53462568/118349178-c28c4480-b56c-11eb-900b-06a76dbcc03f.png)
 
-**So I am adding a new car. When I click on Create button the car should be added as per the screen shot below**
-![S3_2](https://user-images.githubusercontent.com/53462568/118349300-8c9b9000-b56d-11eb-9abd-d779495f5a2a.png)
-
-**On click of Edit and deletr icon car details will be edit and delete**
-![S3_3](https://user-images.githubusercontent.com/53462568/118349392-0895d800-b56e-11eb-8f8f-e095e7295624.png)
 
 **I can see the service history of this customer when I click on service History button**
 ![S5](https://user-images.githubusercontent.com/53462568/118348089-87d2de00-b565-11eb-814f-80c57f262f30.png)
@@ -57,8 +50,17 @@ When you click on Back to Users link on the navbar you will see the following pa
 ![S10](https://user-images.githubusercontent.com/53462568/118348564-ebaad600-b568-11eb-8ba0-aa58b2789126.png)
 ![S11](https://user-images.githubusercontent.com/53462568/118348572-f36a7a80-b568-11eb-9ef9-38063d11f7fd.png)
 
+**When I click on BackToList button above then I should be able to see the following again**
+![S4](https://user-images.githubusercontent.com/53462568/118348188-3ecf5980-b566-11eb-8c71-c7c6325e3fab.png)
 
+**When I click on AddNewCar button the following screen should be visible**
+![S3_1](https://user-images.githubusercontent.com/53462568/118349178-c28c4480-b56c-11eb-900b-06a76dbcc03f.png)
 
+**So I am adding a new car. When I click on Create button the car should be added as per the screen shot below**
+![S3_2](https://user-images.githubusercontent.com/53462568/118349300-8c9b9000-b56d-11eb-9abd-d779495f5a2a.png)
+
+**On click of Edit and deletr icon car details will be edit and delete**
+![S3_3](https://user-images.githubusercontent.com/53462568/118349392-0895d800-b56e-11eb-8f8f-e095e7295624.png)
 
 
 
