@@ -3,7 +3,7 @@ Website for Service center in ASP .NET CORE.
 **Webiste front view**
 ![S0](https://user-images.githubusercontent.com/53462568/118270999-5ebb3a80-b4de-11eb-9f1e-501d20734724.png)
 
-#ADMIN LOGIN
+# ADMIN LOGIN
 **Once I login as Admin**
 ![S1](https://user-images.githubusercontent.com/53462568/118271055-6f6bb080-b4de-11eb-8374-6d49addcbe38.png)
 ![S2](https://user-images.githubusercontent.com/53462568/118271071-74306480-b4de-11eb-8e4e-16c8018bbac1.png)
@@ -65,7 +65,7 @@ When you click on Back to Users link on the navbar you will see the following pa
 
 
 
-##SERVICE TYPE LIST
+## SERVICE TYPE LIST
 
 **on click of service type on navbar the below screenshot will come**
 ![st](https://user-images.githubusercontent.com/53462568/118351142-cffafc00-b577-11eb-972b-4c6ed9d22fc0.png)
